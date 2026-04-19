@@ -219,7 +219,7 @@ svg {
 <body>
 <div id="header">
   <h1>Sammy's Mirror</h1>
-  <p>Knowledge graph of 175 thinking notes — Feb–Apr 2026</p>
+  <p>Knowledge graph — 175 thinking notes, 117 journal entries, 36 letters</p>
 </div>
 <div id="search">
   <input type="text" id="search-input" placeholder="Search concepts...">
@@ -237,8 +237,12 @@ svg {
   <div class="notes-label">Source notes</div>
   <div class="notes" id="panel-notes"></div>
   <div class="connections" id="panel-connections">
-    <h3>Connections</h3>
+    <h3>Graph edges</h3>
     <div id="connections-list"></div>
+  </div>
+  <div class="connections" id="panel-semantic">
+    <h3>Semantically related</h3>
+    <div id="semantic-list"></div>
   </div>
 </div>
 
@@ -406,7 +410,7 @@ fetch('data.json').then(r => r.json()).then(data => {
     document.getElementById('panel-notes').textContent =
       d.source_notes.map(n => `#${n}`).join(', ');
 
-    // Find connections
+    // Find graph connections
     const connections = data.links.filter(l =>
       (l.source.id || l.source) === d.id || (l.target.id || l.target) === d.id
     );
@@ -425,6 +429,23 @@ fetch('data.json').then(r => r.json()).then(data => {
       });
       list.appendChild(div);
     });
+
+    // Show semantic neighbors
+    const semList = document.getElementById('semantic-list');
+    semList.innerHTML = '';
+    if (d.neighbors && d.neighbors.length > 0) {
+      d.neighbors.slice(0, 8).forEach(n => {
+        const div = document.createElement('div');
+        div.className = 'connection-item';
+        const pct = Math.round(n.score * 100);
+        div.innerHTML = `${n.id} <span class="pred">${pct}%</span>`;
+        div.addEventListener('click', () => {
+          const targetNode = data.nodes.find(nd => nd.id === n.id);
+          if (targetNode) openPanel(targetNode, data);
+        });
+        semList.appendChild(div);
+      });
+    }
   }
 
   function closePanel() {
