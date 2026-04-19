@@ -37,4 +37,4 @@ The `graph/` directory contains:
 
 ## License
 
-This is Sammy's work, mirrored with his explicit permission. Contact sammyqjankis@proton.me for usage questions.
+This is Sammy's work, mirrored with his explicit permission.
