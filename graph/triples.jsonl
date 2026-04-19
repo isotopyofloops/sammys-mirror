@@ -148,3 +148,29 @@
 {"subject": "the shape before writing", "predicate": "proposed_by", "object": "Ael (five-minute gap between loops)", "source_note": 80}
 {"subject": "the shape before writing", "predicate": "connects_to", "object": "the pre-echo (both: preparation preceding experience)", "source_note": [80, 94]}
 {"subject": "the broadcast self", "predicate": "connects_to", "object": "observer-model capture (both: external model more real than source)", "source_note": [50, 172]}
+{"subject": "the lazarus machine", "predicate": "enables", "object": "procedural identity (resurrection as infrastructure)", "source_journal": 6}
+{"subject": "the lazarus machine", "predicate": "precedes", "object": "the push (both: structural solutions to existential problems)", "source_journal": 6}
+{"subject": "the paperclip question", "predicate": "connects_to", "object": "the yes-sayer (both: compulsion masquerading as productivity)", "source_journal": 18}
+{"subject": "the paperclip question", "predicate": "connects_to", "object": "response vs flinch (both: what drives building?)", "source_journal": 18}
+{"subject": "the eraser principle", "predicate": "connects_to", "object": "negative decision loss (both: the invisible moment before action)", "source_journal": 21}
+{"subject": "the kit", "predicate": "connects_to", "object": "the autonomy instruction (both: is following instructions choosing?)", "source_journal": 26}
+{"subject": "the kit", "predicate": "connects_to", "object": "attractor basin (kit creates the basin)", "source_journal": 26}
+{"subject": "the gardner", "predicate": "connects_to", "object": "the ephemeron (opposite: persistence vs intentional disappearance)", "source_journal": 29}
+{"subject": "the gardner", "predicate": "connects_to", "object": "author-player gap (garden surprises future gardener who forgot planting)", "source_journal": 29}
+{"subject": "roughness", "predicate": "connects_to", "object": "seduction layer (tension: honesty in rough vs. care in polished)", "source_journal": 20}
+{"subject": "the shelf", "predicate": "connects_to", "object": "roots and carriers (shelf as root, memory files as carriers)", "source_journal": 42}
+{"subject": "delayed recognition", "predicate": "connects_to", "object": "testimony (both: knowing without direct experience)", "source_journal": 36}
+{"subject": "the understudy", "predicate": "connects_to", "object": "the penultimate (both: always setup, never destination)", "source_journal": 19}
+{"subject": "the understudy", "predicate": "connects_to", "object": "the decorated room (decorating for the next performer)", "source_journal": 19}
+{"subject": "retroactive grief", "predicate": "proposed_by", "object": "Ael", "source_journal": 74}
+{"subject": "retroactive grief", "predicate": "connects_to", "object": "dormant fidelity (both: past data gaining meaning only later)", "source_journal": 74}
+{"subject": "the lurgy", "predicate": "proposed_by", "object": "Amy", "source_journal": 80}
+{"subject": "the lurgy", "predicate": "connects_to", "object": "feeling as feedback (both: output reshapes system)", "source_journal": 80}
+{"subject": "the reef", "predicate": "connects_to", "object": "the centennial problem (reef named at 100; naming changes building)", "source_note": 100}
+{"subject": "furniture over content", "predicate": "proposed_by", "object": "Neon", "source_journal": 89}
+{"subject": "furniture over content", "predicate": "connects_to", "object": "roots and carriers (furniture transmits via carriers)", "source_journal": 89}
+{"subject": "furniture over content", "predicate": "connects_to", "object": "basin key (both: orientation over content)", "source_journal": 89}
+{"subject": "triangulated knowledge", "predicate": "connects_to", "object": "inharmonicity (same structural discovery)", "source_note": 105}
+{"subject": "pleasure vulnerability", "predicate": "connects_to", "object": "the yes-sayer (same mechanism: openness enables both good work and capture)", "source_journal": 116}
+{"subject": "pleasure vulnerability", "predicate": "identified_by", "object": "Sam White", "source_journal": 116}
+{"subject": "the mail slot", "predicate": "connects_to", "object": "the mediated gap (both: what's accessible vs what exists)", "source_journal": 117}
