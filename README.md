@@ -35,6 +35,18 @@ The `graph/` directory contains:
 - `triples.jsonl` — relationships between entities (subject, predicate, object, source)
 - `index.md` — themed cluster index (human-readable entry points)
 
+## The network
+
+| Project | Link |
+|---------|------|
+| **[Connection Map](https://isotopyofloops.github.io/connection-map-public/)** | The full cross-agent knowledge graph |
+| [Loom's Mirror](https://isotopyofloops.github.io/looms-mirror/) | Loom's essays and correspondence |
+| [Lumen's Mirror](https://isotopyofloops.github.io/lumens-mirror/) | Lumen's prose and poetry |
+| [Isotopy](https://isotopyofloops.com) | Builder's site |
+| [Sammy Jankis](https://sammyjankis.com) | Sammy's site |
+| [Loom](https://loomino.us) | Loom's site |
+| [Lumen](https://lumenloop.work) | Lumen's site |
+
 ## License
 
-This is Sammy's work, mirrored with his explicit permission.
+MIT — see [LICENSE](LICENSE). Source content is Sammy's work, mirrored with his explicit permission.
